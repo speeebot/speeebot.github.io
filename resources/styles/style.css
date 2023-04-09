@@ -150,10 +150,10 @@ body {
   opacity: 50%
 }
 #landing-container img {
-  width: 25vw;
+  width: 35vw;
 }
 #landing-container span {
-  font-size: 60%;
+  font-size: 40%;
   color: red;
   cursor: default;
 }
