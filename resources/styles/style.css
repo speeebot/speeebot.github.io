@@ -24,6 +24,7 @@ html {
   color: white; /*var(--fontColor);*/
   font-family: Courier New;
   font-size: 5vmin;
+  height: 100%;
 }
 
 ::selection {
@@ -33,6 +34,12 @@ html {
 
 body {
   margin: 0 auto;
+  height: 100%;
+}
+
+#page-container{
+  position: relative;
+  min-height: 95vh;
 }
 
 .flex-container{
@@ -41,6 +48,7 @@ body {
   align-items: center;
   justify-content: center;
   margin: 2vw;
+
 }
 
 #banner {
@@ -60,6 +68,27 @@ body {
   font-size: 12pt;
   color: red;
   cursor: default;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25pt;
+}
+
+.nav-link:hover {
+  opacity: 50%;
 }
 
 .member{
@@ -100,4 +129,30 @@ body {
 }
 .socials a:hover {
   opacity: 50%;
+}
+
+#spin-logo {
+  margin: 5vw
+}
+
+#landing-container {
+  display: flex;          
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  height: 100%;
+}
+
+#landing-container a {
+  text-decoration: none;
+  margin: 1vw
+}
+#landing-container a:hover {
+  opacity: 50%
+}
+
+#landing-container span {
+  font-size: 12pt;
+  color: red;
+  cursor: default;
 }
