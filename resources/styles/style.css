@@ -65,7 +65,6 @@ body {
 }
 .nav-links {
   display: flex nowrap;
-  
 }
 .nav-link{
   justify-content: space-between;
@@ -153,6 +152,7 @@ body {
 
 #landing-container img {
   width: 40vw;
+  max-width: 40vw
 }
 
 #landing-container span {
