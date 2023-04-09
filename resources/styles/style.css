@@ -149,14 +149,11 @@ body {
 #landing-container a:hover {
   opacity: 50%
 }
-
 #landing-container img {
-  width: 40vw;
-  max-width: 40vw
+  width: 25vw;
 }
-
 #landing-container span {
-  font-size: 2vw;
+  font-size: 60%;
   color: red;
   cursor: default;
 }
