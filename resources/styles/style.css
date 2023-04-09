@@ -156,3 +156,7 @@ body {
   color: red;
   cursor: default;
 }
+
+.media-embed {
+  margin: 2vw
+}
