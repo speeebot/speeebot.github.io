@@ -160,3 +160,8 @@ body {
 .media-embed {
   margin: 2vw
 }
+
+#message {
+  font-size: 14pt;
+  margin:2vw;
+}
