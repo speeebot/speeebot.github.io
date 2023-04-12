@@ -197,12 +197,16 @@ body {
   cursor: default;
 }
 
+#media-container {
+  display: flex wrap;          
+  flex-direction: row; 
+  margin: 6vh;
+}
 .media-embed {
-  margin: 4vh;
+  
 }
 .coming-soon-message {
   font-size: 40%;
-  margin: 6vh;
 }
 
 #skeleton-container {
