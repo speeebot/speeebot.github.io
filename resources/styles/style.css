@@ -130,6 +130,45 @@ body {
   opacity: 50%;
 }
 
+.enemies-list {
+  margin: 4vh;
+}
+.enemy{
+  display: flex;
+  flex-flow: column nowrap;
+  flex-basis: 50%;
+  flex-grow: 1;
+  align-items: center;
+  height: auto;
+  max-width: 50vw;
+  margin: 1vw;
+}
+.enemy-name {
+  font-size: 40%;
+}
+.enemy-description{
+  font-size: 30%;
+  margin-bottom: 1vh;
+}
+.enemy-description a {
+  text-decoration: none;
+  color: white
+}
+.enemy-description a:hover {
+  opacity: 50%;
+}
+
+#enemies-of-the-state-title {
+  font-size: 50%;
+  margin-top: 4vh;
+  color: red;
+}
+
+#enemies-of-the-state-title2 {
+  font-size: 40%;
+  color: red;
+}
+
 #spin-logo {
   margin: 5vw;
   width: 25%;
@@ -161,7 +200,7 @@ body {
 .media-embed {
   margin: 4vh;
 }
-#coming-soon-message {
+.coming-soon-message {
   font-size: 40%;
-  margin: 5vh;
+  margin: 6vh;
 }
