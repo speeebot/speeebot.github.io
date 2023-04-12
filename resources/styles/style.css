@@ -204,3 +204,14 @@ body {
   font-size: 40%;
   margin: 6vh;
 }
+
+#skeleton-container {
+  display: block;
+  text-align: center;
+}
+
+#skeleton {
+  display: inline-block;
+  font-size: 30%;
+  text-align: left;
+}
